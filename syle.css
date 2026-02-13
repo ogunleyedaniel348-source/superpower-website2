@@ -1,0 +1,78 @@
+body{
+    margin: 10px;
+    padding: 0;
+    background-color: black;
+    height: 1px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    color: lightblue;
+}
+
+.button{
+    cursor: pointer;
+    background-color: red;
+    border-style: none;
+}
+
+img{
+    width: 50%;
+    display: flex;
+    margin-bottom: 5px;
+    border: 2px solid lightblue;
+}
+
+h2,h3{
+    color: lightblue;
+    min-width: 110px;
+    padding: 5px;
+}
+
+.logo{
+    width: 100px;
+    height: 10vh;
+    display: flex;
+    float: left;
+    padding-right: 190px;
+}
+
+.left-sidebar, .main-sidebar, .right-sidebar{
+    width: 300px;
+    height: 100vh;
+    max-height: fit-content;
+    background-color: green;
+    display: inline-flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.left-sidebar, table{
+    border: 2px solid black;
+    
+}
+
+.left-sidebar, table, tr, td, th{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+ input{
+    display: inline-block;
+    min-height: 50px;
+    max-height: 200px;
+    height: 1000%;
+    background-color: white;
+    color: black;
+}
+
+.lorem, .table, .question{
+    align-items: center;
+}

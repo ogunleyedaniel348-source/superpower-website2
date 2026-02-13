@@ -1,0 +1,15 @@
+body{
+    background-color: lightblue;
+}
+
+.form{
+    display: inline-flex;
+    padding: 10px;
+    background-color: green;
+}
+
+.form, input,label{
+    display: inline-block;
+    padding: 1px;
+    margin: 1px;
+}
